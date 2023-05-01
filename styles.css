@@ -1,0 +1,163 @@
+
+@media (min-width: 768px) {
+    #navbar {
+      width: 300px;
+    }
+  }
+  
+  header{
+    display:flex;
+    width:100%;
+    position:fixed;
+  background-color:#635985;
+  top:0;
+  height:10%;
+  justify-content:flex-end;
+  }
+  #navbar ul {
+    list-style-type: none;
+    display: flex;
+
+    flex-direction: row;
+
+  }
+  
+  
+  #navbar ul{
+  list-style-type:none;
+  }
+  
+  
+  a{
+    color:white;
+  text-decoration:none;
+  padding:10px;
+  font-size: larger;
+
+    
+  }
+  #welcome-section{
+    background-color:#18122B;
+
+    color:white;
+     
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+   
+  }
+  
+  #projects{
+      background-color:#393053;
+      color:white;
+      /* height:100%; */
+  
+      height: 100vh;
+
+    
+  }
+  
+  #contact{
+        color:white;
+     background-color:#18122B;
+font-size: xx-large;
+display: flex;
+justify-content: center;
+
+  }
+  footer{
+        color:white;
+     background-color:#18122B;
+  }
+  section {
+    height: 100vh;
+
+  }
+ 
+
+  img{
+    width:100px
+  }
+
+
+  
+  .box {
+    border: 0px solid ;
+    background-color: #18122B;
+    border-radius: 5px;
+    width: calc(100%/3.5);
+    
+
+  }
+  
+  .project-img {
+    width: 100%;
+   
+    border-radius: 5px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .code {
+    color: #a62639;
+    font-weight: bold;
+  }
+  
+
+.box{
+  display:flex;
+    align-items: center;
+    
+}
+
+.btn{
+  background-color:#18122B;
+  color: white;
+border: 0;
+padding: 20px;
+}
+
+#button{
+  background-color:#393053;
+  display:flex;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.project-tile {
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+body, html {
+  height: 100%;
+}
+
+#contact {
+  height: 70vh;
+}
+
+footer {
+  height: 20%;
+}
